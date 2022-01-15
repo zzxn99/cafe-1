@@ -1,0 +1,370 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.image-responsive{
+    width: 100%;
+}
+
+.image-curve{
+    border-radius: 17px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h2{
+    margin-bottom: 2%;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.btn-primary{
+    background-color: #5D4954;
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #7D6167;
+}
+
+.float-container{
+    position: relative;
+}
+
+/* CSS for Navbar */
+.navbar{
+    background-color: #E6DBD0;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.bar{
+    line-height: 80px;
+}
+
+.bar ul{
+    list-style-type: none;
+}
+
+.bar ul li{
+    display: inline;
+    padding: 10px;
+    color: #5D4954;
+}
+
+.bar ul li a{
+    color: #5D4954;
+}
+
+.bar ul li a:hover{
+    color: #7D6167;
+}
+
+/* CSS for Food Search */
+.food-search{
+    background-image: url(../images/muhammad-syafi-al-adam-carO6s-ZGOc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.food-search input[type="search"]{
+    width: 40%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+}
+
+.food-search .container h2{
+    background-color: rgb(182, 182, 182); /* Fallback color */
+    background-color: rgba(179, 179, 179, 0.4); /* Black w/opacity/see-through */
+    color: #ffffff;
+    border: 2px solid rgba(184, 184, 184, 0.555);
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.food-search .container a{
+    color: #000000;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    background-color: #E8DED4;
+}
+
+.box-3{
+    width: 28.5%;
+    float: left;
+    margin: 2%;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 11%;
+    left: 40%;
+}
+
+/* CSS for Food Menu */
+.menu{
+    background-color: #E6E6E7;
+    padding: 4% 0;
+}
+
+.food-menu{
+    width: 47%;
+    margin: 1.5%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 130px;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 50%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 3% 0;
+}
+
+.food-detail{
+    color: #747D8C;
+    font-style: italic;
+}
+
+.menu h4{
+    font-size: 1.2rem;
+}
+
+/* CSS for Contact */
+.contact {
+    background-color: #E6DBD0;
+    color: #17252a;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    padding-top: 4%;
+  }
+  
+.contact h2{
+   margin-top: 2%;
+  }
+
+.contact p{
+    margin-bottom: 2%;
+   }
+  
+  
+.contact ul{
+      padding: 0;
+      font-size: 30px;
+      list-style: none;
+      width: 100%;
+  }
+  
+.contact ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    transition: all .5s ease-in-out;
+  }
+  
+.contact ul li:last-child{
+    margin-right: 0;
+  }
+  
+.contact ul li:hover{
+    transform: scale(1.1);
+  }
+  
+.contact ul li a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 80%;
+  }
+
+.contact h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: #E6DBD0;
+}
+
+.footer a{
+    color: #7D6167;
+}
+
+/* CSS for Mobile Size */
+@media only screen and (max-width:768px){
+    .container{
+        width: 90%;
+    }
+
+    .logo{
+        width: 70%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .bar ul{
+        text-align: center;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .food-search{
+        padding: 30% 0;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    .box-3{
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .menu{
+        padding: 20% 0;
+    }
+
+    .contact{
+        padding-top: 10%;
+    }
+
+    .contact ul li a{
+        font-size: 50%;
+      }
+
+    .footer{
+        font-size: 80%;
+    }
+
+    .food-menu{
+        width: 91%;
+        padding-bottom: 6%;
+        padding-top: 6%;
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .order{
+        width: 100%;
+    }
+}
+
+/* CSS for Order */
+.order-bg{
+    background-image: url(../images/lukas-blazek-f-TWhXOrLiU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+    border: 1.5px solid rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+fieldset{
+    border: 1.5px solid rgba(0, 0, 0, 0.555);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+legend{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

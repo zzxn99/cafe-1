@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link CSS file -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/pngwing.com.png" alt="logo" class="image-responsive">
+                </a>
+            </div>
+            <div class="bar text-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="food.html">Foods</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar End -->
+
+    <!-- Order Start -->
+    <section class="order-bg">
+        <div class="container">
+            <h2 class="text-center">Please fill up this form to confirm your order</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/febrian-zakaria-BnDPpaHR9RQ-unsplash.jpg" alt="Dimsum" class="image-responsive image-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Food Title</h3>
+                        <p class="food-price">$3.00</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Caesar Shawn" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. +6016xxxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. caesar@shawn.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+        </div>
+    </section>
+    <!-- Order End -->
+
+    <!-- Social Start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h3>Let us get in touch</h3>
+            <p>Contact me through folowing links<p>
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon>  Facebook</a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon>  Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- Social End -->
+
+    <!-- Footer Start -->
+    <section class="footer">
+        <div class="container">
+            <p class="text-center">All rights reserved. Designed by <a href="#">Caesar</a></p>
+        </div>
+    </section>
+    <!-- Footer End -->
+
+
+</body>
+</html>
